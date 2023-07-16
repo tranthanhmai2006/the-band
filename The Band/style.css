@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@100&family=Schibsted+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none   ;
+}
+.header {
+    height: 46px;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+}
+.header .navigation li {
+    display: inline-block;
+}
+.header .navigation li a {
+    display:block;
+    color: #fff;
+    text-transform : uppercase;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 15px;
+}
+.header .navigation li a:hover {
+    background-color: #ccc;
+    color :black;
+}
+.header i {
+    color :#fff;
+    line-height: 46px;
+    padding: 0 24px;
+
+}
+.header i:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+.home {
+    padding-top: 50%;
+    background: url("./imgs/chicago.jpg") top center / cover no-repeat;
+}
+.content {
+    text-align: center;
+    padding: 32px 16px;
+    color:#fff;
+}
+.content h2{
+    margin: 10px 0px;
+    font-size: 24px;    
+}
+.content p{
+    margin: 15px 0px;
+}
+.band {
+    margin: 0px 356px;
+    padding: 64px 16px;
+}
+.band-content h1{
+    margin: 10px 0px;
+    color: #000;
+    font-size: 30px; 
+    text-align: center; 
+    font-weight:300;    
+    letter-spacing:2px;
+}
+.band-content span{
+    text-align: center;
+    font-style: italic;
+    display: block;
+    margin: 15px 0px;
+    color:#ccc;
+}
+.band-content p{
+    text-align: justify;
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+.band-members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+}
+.member-item img {
+    width: 160px;
+    border-radius: 4px  ;
+}
+.member-item h3 {
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.tour-dates {
+    background-color: #000;
+}
+.tour-container {
+    margin: 0px 266px;
+    padding: 0px 16px;
+}
+.heading-tour h1 {
+    margin:10px 0px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.heading-tour p {
+    text-align: center;
+    color:#ccc;
+    font-style: italic;
+    margin:15px 0px;
+}
+.ticket-list {
+    background-color: #fff;
+    border-bottom: #fff;
+    border:1px #ccc;
+    color: #757577;
+    list-style-type:none;  
+}
+.ticket-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 16px;
+}
+.sold-out {
+    background-color: #f44336;
+    margin: 0px 0px 0px 16px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0px 8px;
+    list-style-type: none ;
+}
+.quantity {
+    float: right;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #000;
+    color:#fff;
+    line-height:24px ;
+    text-align: center; 
+}
+
+/* .place-items img{
+    width: 154px;
+} */
+
+
+
